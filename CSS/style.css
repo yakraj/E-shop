@@ -1,0 +1,232 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.mobile-view{
+	margin: 0;
+	padding: 0;
+}
+
+/*TOP LOCATION FIELD STARTS HERE*/
+.top-location{
+	background:#C8C2CF;
+	display: flex;
+	justify-content:space-around;
+	padding:0px 10px;
+	align-items:center;
+	height:30px;
+	overflow:hidden;
+}
+.top-location p{
+	font-size:4vw;
+	font-family:sans-serif;
+	font-weight:400;
+	color:#707070;
+}
+/*TOP LOCATION FIELD ENDS HERE */
+
+/*SEARCH FIELD STARTS HERE*/
+.SearchField{
+	background:#E5ECE6;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:5px 0px;
+}
+.SearchField .search{
+	width:85vw;
+	height:30px;
+	border:1px solid #707070;
+	border-radius:4px;
+	padding-left: 30px;
+}
+.SearchField .searchIcon{
+	left:27px;
+	position:absolute;
+	height:15px;
+	width:15px;
+	border:1px solid #707070;
+	border-radius:50%;
+	}
+.SearchField .searchIcon:before{
+	position:absolute;
+	content:'';
+	height:10px;
+	width:2px;
+	margin-top:10px;
+	margin-left:16px;
+	background:#707070;
+	transform:rotate(-45deg);
+}	
+/*SEARCH FIELD ENDS HERE*/
+
+/*BROUSE CATOGERY STARTS HERE*/
+.brouse-catogery{
+	background:#10D5D030;
+}
+.brouse-catogery .cat-top{
+	display:flex;
+	justify-content:space-between;
+	padding:5px 10px;
+}
+.brouse-catogery .cat-top .B-cat-text{
+	font-family:sans-serif;
+	font-size:14px;
+}
+.brouse-catogery .cat-top .B-cat-seeAll{
+	font-family:sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:blue;
+	cursor:pointer;
+}
+.brouse-catogery .cat-top .B-cat-seeAll:hover{
+	text-decoration:underline;
+}
+
+		/*CATOGERY ICON STARTS HERE*/
+.B-cat{
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	justify-items:center;
+}
+.B-cat-Icons{
+	padding:10px;
+	cursor:pointer;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+.B-cat-Icons:hover{
+	background:red;
+}
+.B-cat-Icons .image{
+	height:10vh;
+	width:10vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#FFDE5B;
+	border:1px solid #707070;
+	border-radius:50%;
+}
+
+.B-cat-Icons .image img {
+	width:70%;
+}
+.B-cat .mobiles img{
+	width:45%;
+}
+.B-cat-Icons div{
+	color:#1E3BF9;
+	font-family:sans-serif;
+	font-weight:200;
+}
+
+		/*CATOGERY ICON ENDS HERE*/
+/*BROUSE CATOGERY ENDS HERE*/
+/*POST ARCHIVE STARTS HERE*/
+
+#Post-archive{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+.post-archive-body{
+	width:40vw;
+	padding:5px 0px;
+}
+
+.post-image{
+	box-sizing:border-box;
+	width:40vw;
+	height:40vw;
+	overflow:hidden;
+	display:grid;
+	justify-items:center;
+	align-items:center;
+	border:2px solid #707070;
+	border-radius:15px 15px 0px 0px;
+}
+.post-image img{
+	width:150%;
+}
+.price-favorite{
+	display:flex;
+	justify-content:space-between;
+	padding:0px 5px;
+}
+.price-favorite .Price{
+	font-family:sans-serif;
+	color:#106CD5;
+	font-weight:bold;
+	font-size:13px;
+}
+.post-contents{
+	padding-top:5px;
+	background:#fff;
+	border-right:2px solid #707070;
+	border-left:2px solid #707070;
+	border-bottom:2px solid #707070;
+	border-radius:0px 0px 15px 15px;
+}
+.post-contents .product{
+	display:flex;
+	justify-content:center;
+	color:#000000;
+	font-weight:bold;
+
+}
+.post-contents .location {
+	display:flex;
+	padding:10px;
+	justify-content:space-around;
+	align-items:center;
+}
+.post-contents .location .location-text{
+	color:rgba(0,0,0,0.6);
+	font-weight:600;
+	text-transform:capitalize;
+	font-size:14px;
+
+}
+
+
+/*POST ARCHIVE ENDS HERE*/
+
+/*MOBILE NAV STARTS HERE*/
+.m-nav{
+	bottom:0;
+	position:fixed;
+	width:100%;
+	background:#E5E5E5;
+	display:flex;
+	justify-content:space-between;
+	align-items:flex-end;
+}
+.nav-menu{
+	position:relative;
+	width:100%;
+	height:70px;
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+	flex-direction:column;
+	cursor:pointer;
+
+}
+.nav-menu:hover{
+	background:red;
+}
+
+.nav-menu .explore-text{
+	padding:7px;
+	font-weight:600;
+	font-family:sans-serif;
+	color:#760FCF;
+	text-transform:uppercase;
+	font-size:0.8rem;
+}
+
+/*MOBILE NAV ENDS HERE*/

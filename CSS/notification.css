@@ -1,0 +1,12 @@
+.privacy-contents{
+	margin-top:20px;
+}
+.privacy-contents .contents{
+	padding:0px 10px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.privacy-contents .communications{
+	font-size:10px;
+}

@@ -1,0 +1,158 @@
+/*TOP NAV STARTS HERE*/
+.m-top-nav-chat{
+	background:#E5ECE6;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	height:5vh;
+	padding:0px 15px;
+}
+.m-top-nav-chat img{
+	width:3vh;
+	height:2.8vh;
+}
+.m-top-nav-chat .left{
+	display:flex;
+
+}
+.m-top-nav-chat .m-top-nav-title{
+	font-size:1.1rem;
+	font-family:sans-serif;
+	color:rgba(0,0,0,0.4);
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-left:7px;
+}
+.m-top-nav-chat .right{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+.m-top-nav-chat .search{
+	margin:0px 15px;
+	cursor:pointer;
+	height:15px;
+	width:15px;
+	margin-top:-4px;
+	border:2px solid rgba(0,0,0,0.4);
+	border-radius:50%;
+}
+.m-top-nav-chat .search:before{
+	content: "";
+	height:8px;
+	margin-left:15px;
+	margin-top:13px;
+	transform:rotate(-45deg);
+	width:2px;
+	background:rgba(0,0,0,0.4);
+	position:absolute;
+}
+.threedot{
+	cursor:pointer;
+	height:6px;
+	width:6px;
+	background:rgba(0,0,0,0.4);
+	border-radius:50%;
+}
+.threedot:before{
+	content:'';
+	height:6px;
+	width:6px;
+	background:rgba(0,0,0,0.4);
+	border-radius:50%;
+	position:absolute;
+	margin-top:-8px;
+}
+.threedot:after{
+	content:'';
+	height:6px;
+	width:6px;
+	background:rgba(0,0,0,0.4);
+	border-radius:50%;
+	position:absolute;
+	margin-top:8px;
+}
+
+/*TOP NAV ENDS HERE*/
+
+/*CHAT NAV STARTS HERE*/
+.chat-nav{
+	display:flex;
+	justify-content: space-around;
+	margin-top:30px;
+	color:#9D9F9C;
+	font-family:sans-serif;
+	font-size:1.6rem;
+	text-transform:capitalize;
+	margin-bottom:-7px;
+}
+
+/*CHAT NAV ENDS HERE*/
+
+
+/*CHAT AREA STARTS HERE*/
+.chat-area .chat-customer{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:0px 10px;
+}
+.chat-area .chat-customer .left{
+	display:flex;
+	align-items:center;
+}
+.chat-area .chat-customer .right{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	margin-top:-20px;
+}
+.chat-area .chat-customer .image{
+	height:70px;
+	width:70px;
+	border:1px solid rgba(0,0,0,0.4);
+	box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
+	border-radius:5px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	overflow:hidden;
+}
+.chat-area .chat-customer .image img{
+	width:200%;
+}
+.chat-area .chat-customer .info{
+	margin-left:10px;
+}
+.chat-area .chat-customer .customer-name{
+	font-family:sans-serif;
+	font-style:italic;
+	font-weight:bold;
+	color:#1C16D5;
+	font-size:1.5rem;
+	}
+.chat-area .chat-customer .customer-product{
+	font-family:sans-serif;
+	text-transform:uppercase;
+	font-style:italic;
+	font-weight:bold;
+	color:#16CED5;
+	font-size:1.2rem;
+	}
+.chat-area .chat-customer .recent-message{
+	font-family:sans-serif;
+	color:#ABABAB;
+	font-size:0.9rem;
+	}
+.chat-area .chat-customer #customer-chat{
+	margin-left:60px;
+	margin-top:20px;
+}
+.chat-area .chat-customer .right .date{
+	color:#ABABAB;
+	font-family:sans-serif;
+	font-weight:600;
+	font-size:0.8rem;
+}
+/*CHAT AREA ENDS HERE*/
